@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
+
+    <title>Git-task by kuritsu</title>
+  </head>
+
+  <body>
+
+    <header>
+      <div class="container">
+        <h1>Git-task</h1>
+        <h2>Manage tasks with a local website in a Git repository and a git command line extension.</h2>
+
+        <section id="downloads">
+          <a href="https://github.com/kuritsu/git-task/zipball/master" class="btn">Download as .zip</a>
+          <a href="https://github.com/kuritsu/git-task/tarball/master" class="btn">Download as .tar.gz</a>
+          <a href="https://github.com/kuritsu/git-task" class="btn btn-github"><span class="icon"></span>View on GitHub</a>
+        </section>
+      </div>
+    </header>
+
+    <div class="container">
+      <section id="main_content">
+        <h1>
+<a id="git-task" class="anchor" href="#git-task" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>git-task</h1>
+
+<p>Manage tasks with a local website in a Git repository and a git command line extension.</p>
+
+<h2>
+<a id="why" class="anchor" href="#why" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Why?</h2>
+
+<ul>
+<li>Offline management of tasks related to a project.</li>
+<li>Tasks are inside the same git repository.</li>
+<li>Tasks are each a plain text JSON file, friendly format for reading, merging, or even changing.</li>
+<li>Ensure that every time you commit, the tasks changed are also included in the commit. Thus, no need for 
+associating tasks and commits manually. Of course, multiple tasks can be included in a single commit.</li>
+<li>Provide a standardized way for the automation of task processing.</li>
+<li>Provide git extensions for task management.</li>
+<li>Synchronize tasks with online issue trackers (GitHub, JIRA, Trello, VS Team System, etc). <em>Coming soon!</em>
+</li>
+</ul>
+
+<h2>
+<a id="getting-started" class="anchor" href="#getting-started" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Getting started</h2>
+
+<h3>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Installation</h3>
+
+<p>git-task requires <a href="https://git-scm.com/">Git</a> and <a href="https://nodejs.org/">Node.js</a> (recommended v.4.4.7 or greater), 
+but an Internet connection or <em>npm</em> repository is not needed, since you can copy the git-task package in a compressed 
+file from somebody else, for example.</p>
+
+<h4>
+<a id="via-github" class="anchor" href="#via-github" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Via GitHub</h4>
+
+<p>Clone the git-task GitHub repository (or download the <a href="http://github.com/kuritsu/git-task/archive/master.zip">zip file</a>): </p>
+
+<div class="highlight highlight-source-shell"><pre>$ git clone https://github.com/kuritsu/git-task</pre></div>
+
+<p>And then:</p>
+
+<h4>
+<a id="via-npm" class="anchor" href="#via-npm" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Via NPM</h4>
+
+<p>Run <em>npm</em> from the folder of your git repository (or use <em>-g</em> if you want it globally installed - see
+<code>npm help install</code> for more details):</p>
+
+<div class="highlight highlight-source-shell"><pre>$ npm install git-plugin-task</pre></div>
+
+<p>or</p>
+
+<div class="highlight highlight-source-shell"><pre>$ npm install git_task_folder</pre></div>
+
+<p>or</p>
+
+<div class="highlight highlight-source-shell"><pre>$ npm install git-task.tar.gz</pre></div>
+
+<h3>
+<a id="enable-a-git-task-repository" class="anchor" href="#enable-a-git-task-repository" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Enable a git-task repository</h3>
+
+<h4>
+<a id="setting-the-environment" class="anchor" href="#setting-the-environment" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Setting the environment</h4>
+
+<h5>
+<a id="linuxios" class="anchor" href="#linuxios" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Linux/iOS:</h5>
+
+<p>Locate the git-task Node.js script either in:</p>
+
+<ul>
+<li>The Node.js locally installed modules: /path/to/your/project/node_modules/git-plugin-task/bin</li>
+</ul>
+
+<p>or </p>
+
+<ul>
+<li>The global Node.js modules: /path/to/your/nodejs/home/lib/node_modules/git-plugin-task/bin</li>
+</ul>
+
+<p>Make sure that the git-task script (Node.js) has execution permissions (<code>chmod a+x path/to/git-task</code>).</p>
+
+<p>Then include that directory in your PATH environment variable (i.e., use 
+<code>export PATH=$PATH:path_to_git_task_script_dir</code> in a Bash session or add it in your <code>~/.bashrc</code> 
+or <code>~/.profile</code> files and then reopen/reload a shell session).</p>
+
+<h5>
+<a id="windows" class="anchor" href="#windows" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Windows:</h5>
+
+<p><em>Comming soon!</em></p>
+
+<h4>
+<a id="initializing-and-running-git-task" class="anchor" href="#initializing-and-running-git-task" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Initializing and running git-task</h4>
+
+<p>Now you should be able to run at your git repository:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ git-task init</pre></div>
+
+<p>or for a more git-like alternative: </p>
+
+<div class="highlight highlight-source-shell"><pre>$ git task init</pre></div>
+
+<p>This command copies all the git-task required files to a <em>.task</em> directory under your git repository. 
+Then, run the following command for starting the git-task server (website hosting service):</p>
+
+<div class="highlight highlight-source-shell"><pre>$ git task start</pre></div>
+
+<p>By default, as you can see in <em>.tasks/config.js</em>, the hosted service starts at <em>http://localhost:16100</em>.
+You can change this by modifying that file.</p>
+
+<p><strong>NOTICE:</strong> This must be done in a git-enabled folder. If no valid .git directory is found, the git-task commands
+will fail.</p>
+
+<p>Open a web browser and enter the site address: <em>http://localhost:16100</em>. You should see a web page like this:</p>
+
+<p><img src="https://github.com/kuritsu/git-task/blob/master/images/screenshot1.png" alt="git-task web page"></p>
+
+<p>You can stop the server executing:</p>
+
+<div class="highlight highlight-source-shell"><pre>$ git task stop</pre></div>
+
+<p>By default the PID (process ID) of the running server is stored in the <em>.tasks/server.pid</em> file, and you can view 
+the server log at <em>.tasks/server.log</em>.</p>
+
+<h3>
+<a id="creating-tasks" class="anchor" href="#creating-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Creating tasks</h3>
+
+<p>Click the <em>New task</em> link. A new task is created and you can edit its title. Press Enter or 
+click outside the task to stop editing.</p>
+
+<h3>
+<a id="modifying-tasks" class="anchor" href="#modifying-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Modifying tasks</h3>
+
+<p>Click the title, pending, estimation hours or tag labels to edit them directly in the 
+task item. Click the <em>E</em> link in a task item to display a task editor.</p>
+
+<h3>
+<a id="adding-and-removing-task-fields" class="anchor" href="#adding-and-removing-task-fields" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Adding and removing task fields</h3>
+
+<p>To add a new field to a task, open the task editor (<em>E</em> link in the task item), and click the <em>Add field</em> link. 
+Check the <em>To all tasks</em> box if you want to add the field to all existing tasks. Enter the field name and its default
+value when asked.</p>
+
+<p>To remove an existing field, click the <em>X</em> link next to the field name in the task editor form, and confirm your
+action when asked. Notice that this action also asks to confirm the deletion of the field in all tasks but not just
+the one in edition.</p>
+
+<h3>
+<a id="deleting-tasks" class="anchor" href="#deleting-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Deleting tasks</h3>
+
+<p>Click the <em>M</em> link and select the <em>Delete task</em> option. The task should now be deleted - thus, the file doesn't
+exist and will not be included in a commit.</p>
+
+<h3>
+<a id="git-status-of-tasks" class="anchor" href="#git-status-of-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Git status of tasks</h3>
+
+<p>Each task is painted with a specific background color. Read the end of the page for knowing what each color means. 
+By default:</p>
+
+<ul>
+<li>Light blue: Unchanged (no addition or modifications).</li>
+<li>Yellow: Added (added to git - not still committed).</li>
+<li>Light red: Modified (already exists in the git repository, and it has 
+been modified).</li>
+<li>Green: Not included (can be unchanged, added or modified, 
+but it is NOT included in the commit).<br>
+</li>
+</ul>
+
+<h3>
+<a id="commit" class="anchor" href="#commit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Commit</h3>
+
+<p>You can commit all the project using <code>git commit</code> from a shell standing at the git repository or 
+using an IDE. The tasks you modified or added should already be included in the commit.</p>
+
+<p>You can also commit only the <em>.tasks</em> folder (to either commit the git-task site's code, styles or just the tasks 
+themselves). This is done by clicking the "Commit" link at the menu bar. A dialog is shown to allow you 
+include a commit message. </p>
+
+<h3>
+<a id="excluding-tasks-from-commit" class="anchor" href="#excluding-tasks-from-commit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Excluding tasks from commit</h3>
+
+<p>You can exclude one or several tasks you added/modified from a commit. Click in the <em>M</em> link 
+of the task item and select <em>Exclude from commit</em>. The task should have a different color now.</p>
+
+<p>Choose <em>Include in commit</em> to undo this operation.</p>
+
+<h3>
+<a id="discarding-changes-in-tasks" class="anchor" href="#discarding-changes-in-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Discarding changes in tasks</h3>
+
+<p>Changes in tasks can be discarded from git after you click the <em>M</em> link of the task and choose <em>Discard changes</em>.
+The task will lose all the changes you made and restore it (via <code>git checkout</code>).</p>
+
+<h3>
+<a id="sorting-tasks" class="anchor" href="#sorting-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Sorting tasks</h3>
+
+<p>Choose an option from the <em>- Sort here -</em> combobox, and the tasks will be sorted by that property. Check/uncheck the 
+<em>Reverse</em> box for inverting the current sort order.</p>
+
+<h3>
+<a id="filtering-tasks" class="anchor" href="#filtering-tasks" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Filtering tasks</h3>
+
+<p>Write a text in the <em>Filter / search here</em> textbox to filter the tasks shown in the page. All task attributes are 
+included in the filter (ids, title, tags, etc). </p>
+
+<h3>
+<a id="mass-adding-and-mass-removing-tags" class="anchor" href="#mass-adding-and-mass-removing-tags" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Mass-adding and mass-removing tags</h3>
+
+<p><strong>NOTICE</strong>: Mass-adding and mass-removing tags affect all tasks displayed in the page. Don't use this feature 
+unless you filter the tasks before. </p>
+
+<p>Tags can be added or removed from a set of (or all) tasks. Type tag names separated by commas in the 
+<em>tag1,tag2,-tag3,-tag4</em> textbox and press Enter to add the tag(s). Prepend the tag name with a <em>-</em> to 
+remove the tag. When you press Enter all visible tasks are modified with the new tags added or removed. 
+This causes the tasks to be updated (changed in git).</p>
+
+<h3>
+<a id="add-a-readme-to-the-web-page" class="anchor" href="#add-a-readme-to-the-web-page" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Add a README to the web page</h3>
+
+<p>A README.md (Markdown) can be added to the .tasks folder and will be displayed at the end of the web page.
+Use your preferred editor to change it.  </p>
+
+<h2>
+<a id="bugs" class="anchor" href="#bugs" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Bugs</h2>
+
+<p>Enter <a href="http://github.com/kuritsu/git-task/issues">git-task issues</a> or use git-task locally and push the code!!! </p>
+
+<h2>
+<a id="license-mit" class="anchor" href="#license-mit" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>License (MIT)</h2>
+
+<p>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated
+documentation files (the "Software"), to deal in the Software without restriction, including without limitation
+the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to the following conditions:</p>
+
+<p>The above copyright notice and this permission notice shall be included in all copies or substantial portions of 
+the Software.</p>
+
+<p>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
+WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+      </section>
+    </div>
+
+    
+  </body>
+</html>
