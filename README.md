@@ -23,10 +23,10 @@ file from somebody else, for example.
 
 #### Via GitHub
 
-Clone the git-task GitHub repository (or download the [zip file](http://github.com/kuritsu/git-task/archive/master.zip)): 
+Clone the git-task GitHub repository (or download the [zip file](http://github.com/aleph-engineering/git-task/archive/master.zip)): 
 
 ``` bash
-$ git clone https://github.com/kuritsu/git-task
+$ git clone https://github.com/aleph-engineering/git-task
 ```
 
 And then:
@@ -105,7 +105,7 @@ will fail.
 
 Open a web browser and enter the site address: *http://localhost:16100*. You should see a web page like this:
 
-<img src="https://github.com/kuritsu/git-task/blob/master/images/screenshot1.png" alt="git-task web page" />
+<img src="https://github.com/aleph-engineering/git-task/blob/master/images/screenshot1.png" alt="git-task web page" />
 
 You can stop the server executing:
 
@@ -201,7 +201,7 @@ Use your preferred editor to change it.
 
 ## Bugs
 
-Enter [git-task issues](http://github.com/kuritsu/git-task/issues) or use git-task locally and push the code!!! 
+Enter [git-task issues](http://github.com/aleph-engineering/git-task/issues) or use git-task locally and push the code!!! 
 
 ## License (MIT)
 

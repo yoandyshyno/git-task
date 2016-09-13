@@ -5973,3 +5973,46 @@ GET: /README.md.
 
 GET: /favicon.ico.
 Invalid access to file '/home/jeff/WebstormProjects/git-task/.tasks//favicon.ico'.
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /marked.min.js.
+
+GET: /styles.css.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558"
+add '.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558"
+add '.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558"
+add '.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558"
+add '.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
