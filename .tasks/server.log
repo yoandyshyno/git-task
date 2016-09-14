@@ -6016,3 +6016,1412 @@ POST: /tasks/
 File '/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558' saved.
 Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558"
 add '.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+module.js:341
+    throw err;
+    ^
+
+Error: Cannot find module 'git-plugin-task/lib/server'
+    at Function.Module._resolveFilename (module.js:339:15)
+    at Function.Module._load (module.js:290:25)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:16:19)
+    at [eval]:1:1
+    at Object.exports.runInThisContext (vm.js:54:17)
+    at Object.<anonymous> ([eval]-wrapper:6:22)
+    at Module._compile (module.js:413:34)
+    at node.js:611:27
+    at nextTickCallbackWith0Args (node.js:452:9)
+module.js:341
+    throw err;
+    ^
+
+Error: Cannot find module 'git-plugin-task/lib/server'
+    at Function.Module._resolveFilename (module.js:339:15)
+    at Function.Module._load (module.js:290:25)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:16:19)
+    at [eval]:1:1
+    at Object.exports.runInThisContext (vm.js:54:17)
+    at Object.<anonymous> ([eval]-wrapper:6:22)
+    at Module._compile (module.js:413:34)
+    at node.js:611:27
+    at nextTickCallbackWith0Args (node.js:452:9)
+module.js:341
+    throw err;
+    ^
+
+Error: Cannot find module 'git-plugin-task/lib/server'
+    at Function.Module._resolveFilename (module.js:339:15)
+    at Function.Module._load (module.js:290:25)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:16:19)
+    at [eval]:1:1
+    at Object.exports.runInThisContext (vm.js:54:17)
+    at Object.<anonymous> ([eval]-wrapper:6:22)
+    at Module._compile (module.js:413:34)
+    at node.js:611:27
+    at nextTickCallbackWith0Args (node.js:452:9)
+module.js:341
+    throw err;
+    ^
+
+Error: Cannot find module 'git-plugin-task/lib/server'
+    at Function.Module._resolveFilename (module.js:339:15)
+    at Function.Module._load (module.js:290:25)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:16:19)
+    at [eval]:1:1
+    at Object.exports.runInThisContext (vm.js:54:17)
+    at Object.<anonymous> ([eval]-wrapper:6:22)
+    at Module._compile (module.js:413:34)
+    at node.js:611:27
+    at nextTickCallbackWith0Args (node.js:452:9)
+module.js:341
+    throw err;
+    ^
+
+Error: Cannot find module 'git-plugin-task/lib/server'
+    at Function.Module._resolveFilename (module.js:339:15)
+    at Function.Module._load (module.js:290:25)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:16:19)
+    at [eval]:1:1
+    at Object.exports.runInThisContext (vm.js:54:17)
+    at Object.<anonymous> ([eval]-wrapper:6:22)
+    at Module._compile (module.js:413:34)
+    at node.js:611:27
+    at nextTickCallbackWith0Args (node.js:452:9)
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /styles.css.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558"
+add '.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /styles.css.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /config.js.
+
+GET: /marked.min.js.
+
+GET: /styles.css.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /styles.css.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /README.md.
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558"
+add '.tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317"
+add '.tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317"
+add '.tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317"
+add '.tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317"
+add '.tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317"
+add '.tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53"
+add '.tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53"
+add '.tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53"
+add '.tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53"
+add '.tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /marked.min.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /config.js.
+
+GET: /marked.min.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+events.js:154
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 127.0.0.1:16100
+    at Object.exports._errnoException (util.js:856:11)
+    at exports._exceptionWithHostPort (util.js:879:20)
+    at Server._listen2 (net.js:1236:14)
+    at listen (net.js:1272:10)
+    at net.js:1381:9
+    at GetAddrInfoReqWrap.asyncCallback [as callback] (dns.js:63:16)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:82:10)
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> ''M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558
+A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /styles.css.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317"
+add '.tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317"
+add '.tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317"
+add '.tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317"
+add '.tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+>> 'M  .tasks/data/a43aa6eb217a5c7671cc7381cede23481c7a0344faaa92fbf50aa02f5dc44558'
+>> 'A  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'A  .tasks/data/d4dd92495e9a8f9862259cbfd40fa3ea6a473227f626336a722f44c661ded317'
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.

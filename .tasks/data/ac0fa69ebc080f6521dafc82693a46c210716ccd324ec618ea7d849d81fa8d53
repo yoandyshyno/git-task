@@ -1,0 +1,11 @@
+{
+  "status": "open",
+  "pending": 1,
+  "estimation": 1,
+  "title": "When sending operations to the git-task service, new windows should not appear (Windows)",
+  "tags": "server,bug",
+  "gitStatus": "  ",
+  "id": "ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53",
+  "createdAt": 1473891966531,
+  "updatedAt": 1473892029130
+}
