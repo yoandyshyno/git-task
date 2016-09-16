@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": "1",
+  "title": "When the task is saved in the task editor, it adds an undefined field. It should not.",
+  "tags": "webpage,task editor,bug",
+  "gitStatus": "A ",
+  "id": "ae1a6e3e4899ec25c6521e6ae92d137cedab883e95a25dfe6cddcae9ba17f946",
+  "createdAt": 1474042295143,
+  "updatedAt": 1474042990300
+}

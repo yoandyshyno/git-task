@@ -187,7 +187,7 @@ function editTask(task) {
     });
 
     function updateTaskValues() {
-        containerForm.find("input").toArray().forEach(function(item) {
+        containerForm.find(".task_edit_input").toArray().forEach(function(item) {
             var input = $(item);
             var key = input.data("key");
             if (!isReadOnlyField(key)) {
