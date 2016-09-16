@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": 1,
+  "title": "Update the documentation for installing and using git-task in Windows",
+  "tags": "doc",
+  "gitStatus": "A ",
+  "id": "b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33",
+  "createdAt": 1474043083880,
+  "updatedAt": 1474047226921
+}

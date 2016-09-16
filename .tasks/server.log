@@ -12739,3 +12739,102 @@ POST: /tasks/
 File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ae1a6e3e4899ec25c6521e6ae92d137cedab883e95a25dfe6cddcae9ba17f946' saved.
 Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ae1a6e3e4899ec25c6521e6ae92d137cedab883e95a25dfe6cddcae9ba17f946"
 add '.tasks/data/ae1a6e3e4899ec25c6521e6ae92d137cedab883e95a25dfe6cddcae9ba17f946'
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /styles.css.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33"
+add '.tasks/data/b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33"
+add '.tasks/data/b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33"
+add '.tasks/data/b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33"
+add '.tasks/data/b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33"
+add '.tasks/data/b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33"
+add '.tasks/data/b92bbe02437cb04371dfb8e13d5cf0ab0914c9a540382cc5d9e5fb6132d83c33'
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /styles.css.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /styles.css.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.

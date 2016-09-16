@@ -7,7 +7,7 @@ Manage tasks with a local website in a Git repository and a git command line ext
 - Offline management of tasks related to a project.
 - Tasks are inside the same git repository.
 - Tasks are each a plain text JSON file, friendly format for reading, merging, or even changing.
-- Ensure that every time you commit, the tasks changed are also included in the commit. Thus, no need for 
+- Ensure that every time you commit, the tasks changed are also included in the commit. Thus, no need for
 associating tasks and commits manually. Of course, multiple tasks can be included in a single commit.
 - Provide a standardized way for the automation of task processing.
 - Provide git extensions for task management.
@@ -17,13 +17,13 @@ associating tasks and commits manually. Of course, multiple tasks can be include
 
 ### Installation
 
-git-task requires [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/) (recommended v.4.4.7 or greater), 
-but an Internet connection or *npm* repository is not needed, since you can copy the git-task package in a compressed 
+git-task requires [Git](https://git-scm.com/) and [Node.js](https://nodejs.org/) (recommended v.4.4.7 or greater),
+but an Internet connection or *npm* repository is not needed, since you can copy the git-plugin-task package in a compressed
 file from somebody else, for example.
 
 #### Via GitHub
 
-Clone the git-task GitHub repository (or download the [zip file](http://github.com/aleph-engineering/git-task/archive/master.zip)): 
+Clone the git-task GitHub repository (or download the [zip file](http://github.com/aleph-engineering/git-task/archive/master.zip)):
 
 ``` bash
 $ git clone https://github.com/aleph-engineering/git-task
@@ -31,8 +31,8 @@ $ git clone https://github.com/aleph-engineering/git-task
 
 And then:
 
-#### Via NPM 
-  
+#### Via NPM
+
 Run *npm* from the folder of your git repository (or use *-g* if you want it globally installed - see
 ```npm help install``` for more details):
 
@@ -47,7 +47,7 @@ $ npm install git_task_folder
 ```
 
 or
- 
+
 ``` bash
 $ npm install git-task.tar.gz
 ```
@@ -56,41 +56,26 @@ $ npm install git-task.tar.gz
 
 #### Setting the environment
 
-##### Linux/iOS:
-
-Locate the git-task Node.js script either in:
-
-- The Node.js locally installed modules: /path/to/your/project/node_modules/git-plugin-task/bin
- 
-or 
-
-- The global Node.js modules: /path/to/your/nodejs/home/lib/node_modules/git-plugin-task/bin
-
-Make sure that the git-task script (Node.js) has execution permissions (```chmod a+x path/to/git-task```).
-
-Then include that directory in your PATH environment variable (i.e., use 
-```export PATH=$PATH:path_to_git_task_script_dir``` in a Bash session or add it in your ```~/.bashrc``` 
-or ```~/.profile``` files and then reopen/reload a shell session).
-
-##### Windows:
-
-*Comming soon!*
+This version of the git-plugin-task package includes the setup of binaries.
+You should now be able to run successfully the git-task node.js script without much
+extra configuration. Anyway, remember to set correctly the NODE_PATH environment
+variable (See this [link](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders)).
 
 #### Initializing and running git-task
 
-Now you should be able to run at your git repository:
+Run at your git repository:
 
 ``` bash
 $ git-task init
 ```
 
-or for a more git-like alternative: 
+or for a more git-like alternative:
 
 ``` bash
 $ git task init
 ```
 
-This command copies all the git-task required files to a *.task* directory under your git repository. 
+This command copies all the git-task required files to a *.task* directory under your git repository.
 Then, run the following command for starting the git-task server (website hosting service):
 
 ``` bash
@@ -105,7 +90,7 @@ will fail.
 
 Open a web browser and enter the site address: *http://localhost:16100*. You should see a web page like this:
 
-<img src="https://github.com/aleph-engineering/git-task/blob/master/images/screenshot1.png" alt="git-task web page" />
+<img src="https://github.com/aleph-engineering/git-task/raw/master/images/screenshot1.png" alt="git-task web page" />
 
 You can stop the server executing:
 
@@ -113,29 +98,29 @@ You can stop the server executing:
 $ git task stop
 ```
 
-By default the PID (process ID) of the running server is stored in the *.tasks/server.pid* file, and you can view 
+By default the PID (process ID) of the running server is stored in the *.tasks/server.pid* file, and you can view
 the server log at *.tasks/server.log*.
 
 ### Creating tasks
 
-Click the *New task* link. A new task is created and you can edit its title. Press Enter or 
+Click the *New task* link. A new task is created and you can edit its title. Press Enter or
 click outside the task to stop editing.
 
 ### Modifying tasks
 
-Click the title, pending, estimation hours or tag labels to edit them directly in the 
+Click the title, pending, estimation hours or tag labels to edit them directly in the
 task item. Click the *E* link in a task item to display a task editor.
 
 ### Adding and removing task fields
 
-To add a new field to a task, open the task editor (*E* link in the task item), and click the *Add field* link. 
+To add a new field to a task, open the task editor (*E* link in the task item), and click the *Add field* link.
 Check the *To all tasks* box if you want to add the field to all existing tasks. Enter the field name and its default
 value when asked.
 
 To remove an existing field, click the *X* link next to the field name in the task editor form, and confirm your
 action when asked. Notice that this action also asks to confirm the deletion of the field in all tasks but not just
 the one in edition.
- 
+
 ### Deleting tasks
 
 Click the *M* link and select the *Delete task* option. The task should now be deleted - thus, the file doesn't
@@ -143,28 +128,28 @@ exist and will not be included in a commit.
 
 ### Git status of tasks
 
-Each task is painted with a specific background color. Read the end of the page for knowing what each color means. 
+Each task is painted with a specific background color. Read the end of the page for knowing what each color means.
 By default:
 
 - <span style="background-color:#b8fffa">Light blue</span>: Unchanged (no addition or modifications).
 - <span style="background-color:#fffc51">Yellow</span>: Added (added to git - not still committed).
-- <span style="background-color:#ff9270">Light red</span>: Modified (already exists in the git repository, and it has 
+- <span style="background-color:#ff9270">Light red</span>: Modified (already exists in the git repository, and it has
 been modified).
-- <span style="background-color:#20B2AA">Green</span>: Not included (can be unchanged, added or modified, 
-but it is NOT included in the commit).  
+- <span style="background-color:#20B2AA">Green</span>: Not included (can be unchanged, added or modified,
+but it is NOT included in the commit).
 
 ### Commit
 
-You can commit all the project using ```git commit``` from a shell standing at the git repository or 
+You can commit all the project using ```git commit``` from a shell standing at the git repository or
 using an IDE. The tasks you modified or added should already be included in the commit.
 
-You can also commit only the *.tasks* folder (to either commit the git-task site's code, styles or just the tasks 
-themselves). This is done by clicking the "Commit" link at the menu bar. A dialog is shown to allow you 
-include a commit message. 
-  
+You can also commit only the *.tasks* folder (to either commit the git-task site's code, styles or just the tasks
+themselves). This is done by clicking the "Commit" link at the menu bar. A dialog is shown to allow you
+include a commit message.
+
 ### Excluding tasks from commit
 
-You can exclude one or several tasks you added/modified from a commit. Click in the *M* link 
+You can exclude one or several tasks you added/modified from a commit. Click in the *M* link
 of the task item and select *Exclude from commit*. The task should have a different color now.
 
 Choose *Include in commit* to undo this operation.
@@ -176,32 +161,32 @@ The task will lose all the changes you made and restore it (via ```git checkout`
 
 ### Sorting tasks
 
-Choose an option from the *- Sort here -* combobox, and the tasks will be sorted by that property. Check/uncheck the 
+Choose an option from the *- Sort here -* combobox, and the tasks will be sorted by that property. Check/uncheck the
 *Reverse* box for inverting the current sort order.
 
 ### Filtering tasks
 
-Write a text in the *Filter / search here* textbox to filter the tasks shown in the page. All task attributes are 
-included in the filter (ids, title, tags, etc). 
+Write a text in the *Filter / search here* textbox to filter the tasks shown in the page. All task attributes are
+included in the filter (ids, title, tags, etc).
 
 ### Mass-adding and mass-removing tags
 
-**NOTICE**: Mass-adding and mass-removing tags affect all tasks displayed in the page. Don't use this feature 
-unless you filter the tasks before. 
+**NOTICE**: Mass-adding and mass-removing tags affect all tasks displayed in the page. Don't use this feature
+unless you filter the tasks before.
 
-Tags can be added or removed from a set of (or all) tasks. Type tag names separated by commas in the 
-*tag1,tag2,-tag3,-tag4* textbox and press Enter to add the tag(s). Prepend the tag name with a *-* to 
-remove the tag. When you press Enter all visible tasks are modified with the new tags added or removed. 
+Tags can be added or removed from a set of (or all) tasks. Type tag names separated by commas in the
+*tag1,tag2,-tag3,-tag4* textbox and press Enter to add the tag(s). Prepend the tag name with a *-* to
+remove the tag. When you press Enter all visible tasks are modified with the new tags added or removed.
 This causes the tasks to be updated (changed in git).
 
 ### Add a README to the web page
 
 A README.md (Markdown) can be added to the .tasks folder and will be displayed at the end of the web page.
-Use your preferred editor to change it.  
+Use your preferred editor to change it.
 
 ## Bugs
 
-Enter [git-task issues](http://github.com/aleph-engineering/git-task/issues) or use git-task locally and push the code!!! 
+Enter [git-task issues](http://github.com/aleph-engineering/git-task/issues) or use git-task locally and push the code!!!
 
 ## License (MIT)
 
@@ -210,7 +195,7 @@ documentation files (the "Software"), to deal in the Software without restrictio
 the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to
 permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of 
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of
 the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE
