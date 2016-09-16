@@ -7425,3 +7425,259 @@ GET: /README.md.
 
 GET: /favicon.ico.
 Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /styles.css.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+module.js:341
+    throw err;
+    ^
+
+Error: Cannot find module 'git-plugin-task/lib/server'
+    at Function.Module._resolveFilename (module.js:339:15)
+    at Function.Module._load (module.js:290:25)
+    at Module.require (module.js:367:17)
+    at require (internal/module.js:16:19)
+    at [eval]:1:1
+    at Object.exports.runInThisContext (vm.js:54:17)
+    at Object.<anonymous> ([eval]-wrapper:6:22)
+    at Module._compile (module.js:413:34)
+    at node.js:611:27
+    at nextTickCallbackWith0Args (node.js:452:9)
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /styles.css.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53"
+add '.tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'M  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53' saved.
+Calling git: git reset HEAD "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53"
+Unstaged changes after reset:
+M	.tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53
+M	.tasks/server.log
+M	.tasks/server.pid
+Calling git: git checkout -- "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53"
+
+>> ''
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data'.
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+>> ''
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\\favicon.ico'.
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53"
+add '.tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'M  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+
+POST: /tasks/
+File 'D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53' saved.
+Calling git: git add --verbose "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks\data\ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53"
+add '.tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+>> 'M  .tasks/data/ac0fa69ebc080f6521dafc82693a46c210716ccd324ec618ea7d849d81fa8d53'
+
+POST: /tasks/commit
+Calling git: git commit -m "Tasks updated." -- "D:/Jeff/My Projects/aleph.engineering/git-task\.tasks"
