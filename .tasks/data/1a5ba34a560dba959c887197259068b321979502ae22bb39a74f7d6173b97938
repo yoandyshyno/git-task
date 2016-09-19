@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": 1,
+  "title": "Create a cli for retrieving Jira issues",
+  "tags": "cli,sync,jira",
+  "gitStatus": "A ",
+  "id": "1a5ba34a560dba959c887197259068b321979502ae22bb39a74f7d6173b97938",
+  "createdAt": 1474298922824,
+  "updatedAt": 1474312021396
+}

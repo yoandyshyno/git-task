@@ -20,6 +20,9 @@
     "issue trackers",
     "synchronization"
   ],
+  "dependencies": {
+    "jira-client": "3.0.3"
+  },
   "author": "Jeffrey Alvarez Massón <kuritsu@gmail.com>",
   "license": "MIT"
 }
