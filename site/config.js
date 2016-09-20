@@ -12,6 +12,25 @@ var config = {
     bindAddress: 'localhost'
 };
 
+// Read only task fields
+const READONLY_FIELDS = ["id", "createdAt", "updatedAt", "gitStatus", "status"];
+
+// Date task fields
+const DATE_FIELDS = ["createdAt", "updatedAt"];
+
+/**
+ * Task class, initialization
+ * @constructor
+ */
+function Task() {
+    this.status = 'open';
+    this.pending = 1;
+    this.estimation = 1;
+    this.title = 'New task';
+    this.tags = '';
+    this.gitStatus = 'A ';
+}
+
 //NOTICE: Do not modify from this point.
 if (typeof module !== 'undefined')
     module.exports = config;

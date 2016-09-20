@@ -4,8 +4,6 @@
 
 var tasks = [];
 var draggedTask = null;
-const READONLY_FIELDS = ["id", "createdAt", "updatedAt", "gitStatus", "status"];
-const DATE_FIELDS = ["createdAt", "updatedAt"];
 
 /**
  * Finds the container associated with an status.
@@ -15,19 +13,6 @@ const DATE_FIELDS = ["createdAt", "updatedAt"];
 function getContainerFor(status) {
     var result = $('.column_task_group[data-status="' + status + '"]');
     return result;
-}
-
-/**
- * Task class
- * @constructor
- */
-function Task() {
-    this.status = 'open';
-    this.pending = 1;
-    this.estimation = 1;
-    this.title = 'New task';
-    this.tags = '';
-    this.gitStatus = 'A ';
 }
 
 /**
@@ -187,7 +172,7 @@ function editTask(task) {
     });
 
     function updateTaskValues() {
-        containerForm.find(".task_edit_input").toArray().forEach(function(item) {
+        containerForm.find("input").toArray().forEach(function(item) {
             var input = $(item);
             var key = input.data("key");
             if (!isReadOnlyField(key)) {
