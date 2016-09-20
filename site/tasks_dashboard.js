@@ -620,13 +620,12 @@ function loadTasks() {
  * Creates panels for each task status.
  */
 function createTaskStatusPanels() {
-    var statuses = ["open", "in_progress", "done"];
     var panelTemplate =
             '<td class="column_task_group back%index%" data-status="%status%">' +
                 '<div class="column_header">%status%</div>' +
             '</td>';
     var content = "<table width='100%'><tr>";
-    statuses.forEach(function(item, index) {
+    STATUS_ENUM.forEach(function(item, index) {
         content += panelTemplate.format(["%status%", "%index%"], [item, index.toString()]);
     });
     content += "</tr></table>";

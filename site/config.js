@@ -18,6 +18,9 @@ const READONLY_FIELDS = ["id", "createdAt", "updatedAt", "gitStatus", "status"];
 // Date task fields
 const DATE_FIELDS = ["createdAt", "updatedAt"];
 
+// Status possible values
+const STATUS_ENUM = ["open", "in_progress", "done"];
+
 /**
  * Task class, initialization
  * @constructor

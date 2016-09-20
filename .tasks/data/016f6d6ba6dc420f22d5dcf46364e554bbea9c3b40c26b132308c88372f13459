@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": 1,
+  "title": "Add constant to config.js for status panel names",
+  "tags": "project",
+  "gitStatus": "M ",
+  "id": "016f6d6ba6dc420f22d5dcf46364e554bbea9c3b40c26b132308c88372f13459",
+  "createdAt": 1474340384184,
+  "updatedAt": 1474340609269
+}
