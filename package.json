@@ -2,6 +2,8 @@
   "name": "git-plugin-task",
   "version": "0.1.7",
   "description": "Manage tasks with a local website in a Git repository.",
+  "author": "Jeffrey Alvarez Massón <kuritsu@gmail.com>",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,9 +22,10 @@
     "issue trackers",
     "synchronization"
   ],
+  "dependencies": {
+    "jira-client": "latest"
+  },
   "bundledDependencies": [
     "jira-client"
-  ],
-  "author": "Jeffrey Alvarez Massón <kuritsu@gmail.com>",
-  "license": "MIT"
+  ]
 }
