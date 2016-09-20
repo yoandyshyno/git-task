@@ -2,10 +2,10 @@
   "status": "done",
   "pending": "0",
   "estimation": 1,
-  "title": "Move read-only and date task fields, and Task constructor to config.js",
+  "title": "Move read-only and date task field constants, and Task constructor to config.js",
   "tags": "project",
-  "gitStatus": "A ",
+  "gitStatus": "  ",
   "id": "4a6b0831ba1eb3f67dc007f214cf7cc73f84a5581a8c0942403f04d8c922ec26",
   "createdAt": 1474337560792,
-  "updatedAt": 1474339140718
+  "updatedAt": 1474339492230
 }
