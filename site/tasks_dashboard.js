@@ -638,6 +638,8 @@ function createTaskStatusPanels() {
     content += "</tr></table>";
     var container = $("#task_container");
     container.html(content);
+    var panelWidth = 100 / STATUS_ENUM.length;
+    container.find('.column_task_group').css("width", panelWidth + "%");
     container.on("dragover", function (event) {
             event.preventDefault();
         })

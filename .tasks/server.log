@@ -13585,3 +13585,55 @@ POST: /tasks/
 File '/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd' saved.
 Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd"
 add '.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd'
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300"
+add '.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300"
+add '.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300"
+add '.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300"
+add '.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300"
+add '.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300"
+add '.tasks/data/4df4259b366ea0627a08fb46e4771277fc7a61431ec17f2144db28bc05e3f300'
