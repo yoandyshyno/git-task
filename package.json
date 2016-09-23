@@ -22,9 +22,6 @@
     "issue trackers",
     "synchronization"
   ],
-  "dependencies": {
-    "jira-client": "latest"
-  },
   "bundledDependencies": [
     "jira-client"
   ]

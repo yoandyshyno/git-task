@@ -226,6 +226,7 @@ function addTask(task, prevItem) {
             '<span class="task_item_title">%title%</span><br/>' +
             '<span class="task_item_pending">%pending%</span>h / ' +
             '<span class="task_item_estimation">%estimation%</span>h<br/>' +
+            '<span class="task_item_assigned_to">%assignedTo%</span><br/>' +
             '<span class="task_item_tags">%tags%</span>' +
             '<div class="task_options">' +
                 '<a class="edit_task_link" href="#">E</a> ' +
@@ -235,6 +236,12 @@ function addTask(task, prevItem) {
     var tags = (!task.tags || task.tags.isWhitespace()) ?
         "<em>[no tags]</em>" : task.tags;
     var git = "";
+    if (!task.pending) {
+        task.pending = 0;
+    }
+    if (!task.estimation) {
+        task.estimation = 0;
+    }
     switch (task.gitStatus) {
         case 'A ':
         case 'AM':
@@ -250,8 +257,8 @@ function addTask(task, prevItem) {
             break;
     }
     var realItem = itemTemplate.format(
-        ["%id%","%title%","%pending%","%estimation%","%tags%", "%git%"],
-        [task.id, task.title, task.pending, task.estimation, tags, git]);
+        ["%id%","%title%","%pending%","%estimation%","%tags%", "%git%", "%assignedTo%"],
+        [task.id, task.title, task.pending, task.estimation, tags, git, task.assignedTo]);
     var container = getContainerFor(task.status);
     if (container.length == 0) {
         return;

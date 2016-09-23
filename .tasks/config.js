@@ -36,4 +36,4 @@ function Task() {
 
 //NOTICE: Do not modify from this point.
 if (typeof module !== 'undefined')
-    module.exports = config;
+    module.exports = { config: config, task: Task };

@@ -13504,3 +13504,84 @@ POST: /tasks/
 File '/home/jeff/aleph.engineering/git-task/.tasks/data/016f6d6ba6dc420f22d5dcf46364e554bbea9c3b40c26b132308c88372f13459' saved.
 Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/016f6d6ba6dc420f22d5dcf46364e554bbea9c3b40c26b132308c88372f13459"
 add '.tasks/data/016f6d6ba6dc420f22d5dcf46364e554bbea9c3b40c26b132308c88372f13459'
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /config.js.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /styles.css.
+
+GET: /README.md.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb"
+add '.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd"
+add '.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb"
+add '.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb"
+add '.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd"
+add '.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd'
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /styles.css.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd"
+add '.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd"
+add '.tasks/data/53150611ee0b9feb4743079fa52af0469622244460728bd57d63e709ad1f7edd'

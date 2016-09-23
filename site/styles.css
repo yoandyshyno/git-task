@@ -51,6 +51,11 @@ a {
     display: inline;
 }
 
+.task_editor_form {
+    max-height: 50vh;
+    overflow-y: scroll;
+}
+
 .task_item {
     width: 160px;
     min-height: 100px;
@@ -78,6 +83,10 @@ a {
 
 .task_item.not_included {
     background-color: lightseagreen;
+}
+
+.task_item_assigned_to {
+    font-weight: bold;
 }
 
 .task_item_tags {
