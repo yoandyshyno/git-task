@@ -13705,3 +13705,60 @@ POST: /tasks/
 File '/home/jeff/aleph.engineering/git-task/.tasks/data/65185216cf0465f220dd3cc7ae2d6dac2612f6bfef7a96cb9608bc85564a5a5a' saved.
 Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/65185216cf0465f220dd3cc7ae2d6dac2612f6bfef7a96cb9608bc85564a5a5a"
 add '.tasks/data/65185216cf0465f220dd3cc7ae2d6dac2612f6bfef7a96cb9608bc85564a5a5a'
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/65185216cf0465f220dd3cc7ae2d6dac2612f6bfef7a96cb9608bc85564a5a5a' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/65185216cf0465f220dd3cc7ae2d6dac2612f6bfef7a96cb9608bc85564a5a5a"
+add '.tasks/data/65185216cf0465f220dd3cc7ae2d6dac2612f6bfef7a96cb9608bc85564a5a5a'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/65185216cf0465f220dd3cc7ae2d6dac2612f6bfef7a96cb9608bc85564a5a5a' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/65185216cf0465f220dd3cc7ae2d6dac2612f6bfef7a96cb9608bc85564a5a5a"
+add '.tasks/data/65185216cf0465f220dd3cc7ae2d6dac2612f6bfef7a96cb9608bc85564a5a5a'
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+POST: /tasks/commit
+Calling git: git commit -m "Task progress updated." -- "/home/jeff/aleph.engineering/git-task/.tasks"
