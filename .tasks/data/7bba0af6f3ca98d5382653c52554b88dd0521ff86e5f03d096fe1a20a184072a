@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": 1,
+  "title": "Order each field in the files of the task directory alphabetically.",
+  "tags": "cli,sync",
+  "gitStatus": "M ",
+  "id": "7bba0af6f3ca98d5382653c52554b88dd0521ff86e5f03d096fe1a20a184072a",
+  "createdAt": 1475204188237,
+  "updatedAt": 1475261249785
+}
