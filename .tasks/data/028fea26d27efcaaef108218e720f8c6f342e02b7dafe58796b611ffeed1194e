@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": 1,
+  "title": "Create a new commit with the files with field ordering. Add a sorted_fields tag to the commit",
+  "tags": "cli,sync",
+  "gitStatus": "A ",
+  "id": "028fea26d27efcaaef108218e720f8c6f342e02b7dafe58796b611ffeed1194e",
+  "createdAt": 1475204282063,
+  "updatedAt": 1475524895639
+}
