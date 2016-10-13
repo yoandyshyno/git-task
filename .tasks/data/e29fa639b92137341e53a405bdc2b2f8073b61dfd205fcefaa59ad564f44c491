@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": 1,
+  "title": "Implement merge strategy latest-wins",
+  "tags": "cli,sync",
+  "gitStatus": "  ",
+  "id": "e29fa639b92137341e53a405bdc2b2f8073b61dfd205fcefaa59ad564f44c491",
+  "createdAt": 1476389738894,
+  "updatedAt": 1476390098769
+}

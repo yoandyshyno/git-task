@@ -1,6 +1,6 @@
 {
   "name": "git-plugin-task",
-  "version": "0.1.7",
+  "version": "1.0.0",
   "description": "Manage tasks with a local website in a Git repository.",
   "author": "Jeffrey Alvarez Massón <kuritsu@gmail.com>",
   "license": "MIT",

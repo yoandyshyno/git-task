@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": 1,
+  "title": "Implement merge strategy remote-wins",
+  "tags": "cli,sync",
+  "gitStatus": "  ",
+  "id": "ca499027ded8d40ba2e4423c32733e7b08150acfcb1729d55ced7527752533a3",
+  "createdAt": 1476389707768,
+  "updatedAt": 1476390108564
+}

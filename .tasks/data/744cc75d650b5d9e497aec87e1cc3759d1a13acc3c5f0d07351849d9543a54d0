@@ -1,0 +1,11 @@
+{
+  "status": "in_progress",
+  "pending": "3",
+  "estimation": "4",
+  "title": "Implement merge strategy manual",
+  "tags": "cli,sync",
+  "gitStatus": "A ",
+  "id": "744cc75d650b5d9e497aec87e1cc3759d1a13acc3c5f0d07351849d9543a54d0",
+  "createdAt": 1476389772076,
+  "updatedAt": 1476389796396
+}
