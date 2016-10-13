@@ -13936,7 +13936,7 @@ Unstaged changes after reset:
 M	.tasks/server.log
 M	.tasks/server.pid
 M	lib/server.js
-M	lib/sync/jira-client.js
+M	lib/sync/jira_client.js
 
 GET: /.
 
@@ -14066,3 +14066,174 @@ GET: /README.md.
 
 GET: /favicon.ico.
 Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb"
+add '.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb"
+add '.tasks/data/89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb'
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/e03b6afa23399c173d9e55c9a10f0f769dc1f582a21d8c6f60a5efb7d56fad32' saved.
+Calling git: git reset HEAD "/home/jeff/aleph.engineering/git-task/.tasks/data/e03b6afa23399c173d9e55c9a10f0f769dc1f582a21d8c6f60a5efb7d56fad32"
+Unstaged changes after reset:
+M	.tasks/server.log
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /styles.css.
+
+GET: /common.js.
+
+GET: /config.js.
+
+GET: /marked.min.js.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /common.js.
+
+GET: /config.js.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+Server is now listening on localhost:16100...
+
+GET: /.
+
+GET: /jquery.js.
+
+GET: /marked.min.js.
+
+GET: /config.js.
+
+GET: /common.js.
+
+GET: /styles.css.
+
+GET: /tasks_dashboard.js.
+
+GET: /tasks/
+Checking data dir '/home/jeff/aleph.engineering/git-task/.tasks/data'.
+
+GET: /README.md.
+
+GET: /favicon.ico.
+Invalid access to file '/home/jeff/aleph.engineering/git-task/.tasks//favicon.ico'.
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f"
+add '.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f"
+add '.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f"
+add '.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f'
+
+POST: /tasks/
+File '/home/jeff/aleph.engineering/git-task/.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f' saved.
+Calling git: git add --verbose "/home/jeff/aleph.engineering/git-task/.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f"
+add '.tasks/data/2e5e99af1aa399704382d177c3b3ab6eb21f1eb300981cd4cc97abc31f149f9f'
