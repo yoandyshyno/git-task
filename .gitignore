@@ -1,2 +1,5 @@
 .idea/*
 node_modules
+.tasks/server.log
+.tasks/server.pid
+tmp
