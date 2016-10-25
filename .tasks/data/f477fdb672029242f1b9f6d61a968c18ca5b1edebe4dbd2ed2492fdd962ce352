@@ -1,0 +1,11 @@
+{
+  "status": "in_progress",
+  "pending": 1,
+  "estimation": 1,
+  "title": "Prepare git repository as a test fixture for merge tests",
+  "tags": "cli,sync,test",
+  "gitStatus": "A ",
+  "id": "f477fdb672029242f1b9f6d61a968c18ca5b1edebe4dbd2ed2492fdd962ce352",
+  "createdAt": 1477413399229,
+  "updatedAt": 1477413425746
+}
