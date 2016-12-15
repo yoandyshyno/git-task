@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Display the total amount of hours burned (filter sensitive)",
+  "description": "",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "9d847800cf3159fce450ffa4cae9dd48c5970d758b9f396746005abdab117456",
+  "createdAt": 1481777633200,
+  "updatedAt": 1481778374918
+}

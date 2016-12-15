@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Display a timer with hours/minutes/seconds",
+  "description": "",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "21c57fef007c97726a6aa1b71b2e9ab7bb2470aa1fd69e1288ebf1cb0f251499",
+  "createdAt": 1481777655127,
+  "updatedAt": 1481778373377
+}

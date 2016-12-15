@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Move the Task object definition to the .tasks/config.js",
+  "description": "",
+  "tags": "project",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "e6b304d515dfb4fe1c49843a5d0d292cedd9c653887a9f4965a67bc9f4022eaa",
+  "createdAt": 1481778082144,
+  "updatedAt": 1481778354123
+}

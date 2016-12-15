@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Display the total amount of hours left (filter sensitive)",
+  "description": "",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "cb2d0a175977eee40d857a3b90a5a6dd6ceca2b9e0c6fce53be8fd009af9672e",
+  "createdAt": 1481777564264,
+  "updatedAt": 1481778378494
+}

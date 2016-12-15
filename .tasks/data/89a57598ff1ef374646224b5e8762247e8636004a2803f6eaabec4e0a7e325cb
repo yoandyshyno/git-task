@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": "2",
+  "title": "Create generic function for automatic mapping from remote to local",
+  "tags": "cli,sync",
+  "gitStatus": "M ",
+  "id": "89a57598ff1ef374646224b5e8762247e8636004a2803f6eaabec4e0a7e325cb",
+  "createdAt": 1474340221910,
+  "updatedAt": 1475524991630
+}

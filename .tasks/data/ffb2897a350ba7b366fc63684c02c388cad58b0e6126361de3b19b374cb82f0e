@@ -1,0 +1,11 @@
+{
+  "status": "done",
+  "pending": "0",
+  "estimation": "1",
+  "title": "Implement merge strategy local-wins",
+  "tags": "cli,sync",
+  "gitStatus": "  ",
+  "id": "ffb2897a350ba7b366fc63684c02c388cad58b0e6126361de3b19b374cb82f0e",
+  "createdAt": 1475204317929,
+  "updatedAt": 1476390105867
+}

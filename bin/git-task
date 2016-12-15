@@ -1,4 +1,5 @@
 #!/usr/bin/env node
 
-const cli = require('git-plugin-task/lib/cli');
+var cli = require('../');
+
 cli.run();

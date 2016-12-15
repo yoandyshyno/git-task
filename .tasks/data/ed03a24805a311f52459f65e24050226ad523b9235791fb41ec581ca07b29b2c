@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Add Clone task to the context menu and implement shallow cloning",
+  "description": "",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "ed03a24805a311f52459f65e24050226ad523b9235791fb41ec581ca07b29b2c",
+  "createdAt": 1481777763715,
+  "updatedAt": 1481778368654
+}

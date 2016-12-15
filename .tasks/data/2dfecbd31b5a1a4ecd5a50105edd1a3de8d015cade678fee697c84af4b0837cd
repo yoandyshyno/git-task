@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "When a new task is created, should be put at the beginning of the panel",
+  "description": "",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "2dfecbd31b5a1a4ecd5a50105edd1a3de8d015cade678fee697c84af4b0837cd",
+  "createdAt": 1481777729415,
+  "updatedAt": 1481778370166
+}
