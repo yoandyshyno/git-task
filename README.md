@@ -189,12 +189,12 @@ This causes the tasks to be updated (changed in git).
 A README.md (Markdown) can be added to the .tasks folder and will be displayed at the end of the web page.
 Use your preferred editor to change it.
 
-### Statistics - NEW in v0.8!
+### Statistics - NEW in v0.2!
 
 The web page now has amount of hours left, planned, burned and total of tasks shown
 in the page (so these stats are filter sensitive).
 
-### Timer - NEW in v0.8!
+### Timer - NEW in v0.2!
 
 You can time your development easily with the new timer of the web page,
 you can start/stop/reset it. But *beware*: if you reload the page, the
@@ -207,7 +207,7 @@ use git-task locally and push the code!!!
 
 ## Changelog
 
-- v0.8
+- v0.2
     - Removed the need of having the NODE_PATH env variable to successfuly
       run git-task script.
     - Moved the Task object definition to the .tasks/config.js.
