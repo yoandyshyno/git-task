@@ -1,5 +1,5 @@
-.idea/*
-node_modules
+.idea
 .tasks/server.log
 .tasks/server.pid
+node_modules
 tmp

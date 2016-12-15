@@ -1,6 +1,6 @@
 {
   "name": "git-plugin-task",
-  "version": "1.0.0",
+  "version": "0.8.0",
   "description": "Manage tasks with a local website in a Git repository.",
   "author": "Jeffrey Alvarez Massón <kuritsu@gmail.com>",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "url": "https://github.com/aleph-engineering/git-task"
   },
   "bin": {
-      "git-task": "./bin/git-task"
+    "git-task": "./bin/git-task"
   },
   "devDependencies": {
     "mocha": "3.1.2",
@@ -27,6 +27,6 @@
     "synchronization"
   ],
   "bundledDependencies": [
-    "jira-client"
+
   ]
 }
