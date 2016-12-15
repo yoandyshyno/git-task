@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "When entered pending hours, if bigger than estimation, update estimation to pending value",
+  "description": "",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "0e77decd5b980728818bbc4112d5cc73f2999594ebdd8a7a64c5f11bad8b0c8b",
+  "createdAt": 1481778228514,
+  "updatedAt": 1481778355476
+}

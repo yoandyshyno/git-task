@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Display the total amount of hours planned (filter sensitive)",
+  "description": "",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "34e94d4db5f9ee39d7b4599826b2d3b3572101b4ad04534178a666c5f10aaa2f",
+  "createdAt": 1481777598876,
+  "updatedAt": 1481778376682
+}

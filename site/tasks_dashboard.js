@@ -172,7 +172,7 @@ function editTask(task) {
     });
 
     function updateTaskValues() {
-        containerForm.find("input").toArray().forEach(function(item) {
+        containerForm.find(".task_edit_input").toArray().forEach(function (item) {
             var input = $(item);
             var key = input.data("key");
             if (!isReadOnlyField(key)) {
@@ -226,7 +226,6 @@ function addTask(task, prevItem) {
             '<span class="task_item_title">%title%</span><br/>' +
             '<span class="task_item_pending">%pending%</span>h / ' +
             '<span class="task_item_estimation">%estimation%</span>h<br/>' +
-            '<span class="task_item_assigned_to">%assignedTo%</span><br/>' +
             '<span class="task_item_tags">%tags%</span>' +
             '<div class="task_options">' +
                 '<a class="edit_task_link" href="#">E</a> ' +
@@ -257,8 +256,8 @@ function addTask(task, prevItem) {
             break;
     }
     var realItem = itemTemplate.format(
-        ["%id%","%title%","%pending%","%estimation%","%tags%", "%git%", "%assignedTo%"],
-        [task.id, task.title, task.pending, task.estimation, tags, git, task.assignedTo]);
+        ["%id%","%title%","%pending%","%estimation%","%tags%", "%git%"],
+        [task.id, task.title, task.pending, task.estimation, tags, git]);
     var container = getContainerFor(task.status);
     if (container.length == 0) {
         return;
@@ -286,6 +285,8 @@ function addTask(task, prevItem) {
     newChildNode.find(".task_menu_link").click(taskItemMenuLinkClick);
     newChildNode.find(".task_item_pending").click(taskItemPendingClick);
     newChildNode.find(".task_item_estimation").click(taskItemEstimationClick);
+    updateHourCount();
+    return newChildNode;
 }
 
 /**
@@ -316,7 +317,9 @@ function newTaskClick() {
     var url = getBaseUrl();
     var newTask = createNewTask();
     $.post(url, JSON.stringify(newTask), function(res) {
-        addTask(res.obj);
+    	var newTaskItem = addTask(res.obj);
+    	var panel = getContainerFor(res.obj.status);
+    	panel.children(".column_header").after(newTaskItem);
         if (!$(".task_editor").hasClass("hidden")) {
             editTask(res.obj);
             return;
@@ -346,6 +349,26 @@ function updateTask(task, callback) {
     }).fail(function(error){
         handleError(error);
     });
+}
+
+/**
+ * Run triggers when a task property is changed.
+ * @param task Task to check.
+ * @param taskProperty Task property/field name that was changed.
+ */
+function runTaskPropertyChangedTriggers(task, taskProperty) {
+    switch (taskProperty) {
+        case "pending":
+            if (task.estimation < task.pending) {
+                task.estimation = task.pending;
+            }
+            break;
+        case "status":
+            if (task.status == "done") {
+                task.pending = 0;
+            }
+            break;
+    }
 }
 
 /**
@@ -382,9 +405,15 @@ function editInputInPlace(labelElement, taskProperty, clickHandler, admitsWhites
         if (currentTask[taskProperty] != inputEdit.val() &&
             ((!admitsWhitespace && !inputEdit.val().isWhitespace()) || admitsWhitespace) ) {
             currentTask[taskProperty] = inputEdit.val();
+            runTaskPropertyChangedTriggers(currentTask, taskProperty);
             updateTask(currentTask);
         } else {
             addTask(currentTask, parent);
+        }
+        switch (taskProperty) {
+            case "pending": case "estimation":
+                updateHourCount();
+                break;
         }
     }).on("keypress", function() {
         if (event.keyCode == 13) {
@@ -581,9 +610,9 @@ function loadSortCombo(props) {
             return;
         }
         sortTasks(tasks, sortCombo.val(), reverseCheckbox.prop("checked"));
-        $(".task_item:not(.legend)").remove();
-        tasks.forEach(function(t) {
-            addTask(t);
+        tasks.forEach(function (t) {
+            var taskItem = findTaskItem(t.id);
+            getContainerFor(t.status).append(taskItem);
         });
     });
 
@@ -616,6 +645,7 @@ function loadTasks() {
             loadSortCombo(properties);
             $(".loading").addClass('hidden');
             showBranch(data.obj.meta.branch);
+            updateHourCount();
         }
     }).fail(function(error) {
         $(".loading").addClass('hidden');
@@ -638,8 +668,6 @@ function createTaskStatusPanels() {
     content += "</tr></table>";
     var container = $("#task_container");
     container.html(content);
-    var panelWidth = 100 / STATUS_ENUM.length;
-    container.find('.column_task_group').css("width", panelWidth + "%");
     container.on("dragover", function (event) {
             event.preventDefault();
         })
@@ -658,8 +686,32 @@ function createTaskStatusPanels() {
             target.append(taskItem);
             var task = findTask(taskItem.data("id"));
             task.status = target.data("status");
+            runTaskPropertyChangedTriggers(task, "status");
             updateTask(task);
         });
+}
+
+/**
+ * Update total hours planned/left for visible tasks.
+ */
+function updateHourCount() {
+    var hourCountLabel = $("#hour_count");
+    var totalPending = 0; totalEstimation = 0;
+    var taskArray = $(".task_item:not(.legend):not(:hidden)").toArray();
+    taskArray.forEach(
+        function (item) {
+            var taskId = $(item).data('id');
+            var task = findTask(taskId);
+            if (typeof (task.pending) != 'undefined') {
+                totalPending += parseFloat(task.pending);
+            }
+            if (typeof (task.estimation) != 'undefined') {
+                totalEstimation += parseFloat(task.estimation);
+            }
+        });
+    hourCountLabel.html("<b>%c%</b> tasks: <b>%hp%</b>h left/<b>%he%</b>h total/<b>%hb%</b>h burned".
+        format(["%c%", "%hp%", "%he%", "%hb%"],
+        [taskArray.length, totalPending, totalEstimation, totalEstimation - totalPending]));
 }
 
 /**
@@ -677,6 +729,7 @@ function filterTasksBy(value) {
             }
         });
     });
+    updateHourCount();
 }
 
 /**
@@ -736,6 +789,29 @@ function discardTaskChanges(taskId) {
 }
 
 /**
+ * Clones an existing task.
+ * @param taskId Task ID.
+ */
+function cloneTask(taskId) {
+    var task = findTask(taskId);
+    var taskItem = findTaskItem(taskId);
+    var taskFields = Object.keys(task);
+    var newTask = createNewTask();
+    taskFields.forEach(function (field) {
+        if (field == "id" || field == "gitStatus") {
+            return;
+        }
+        newTask[field] = task[field];
+    });
+    updateTask(newTask, function (updatedTask) {
+        var container = getContainerFor(updatedTask.status);
+        var newTaskItem = findTaskItem(updatedTask.id);
+        newTaskItem.insertAfter(taskItem);
+        editTaskTitle(updatedTask);
+    });
+}
+
+/**
  * Register the clicks of the task context menu items.
  */
 function registerTaskContextMenuEvents() {
@@ -756,6 +832,12 @@ function registerTaskContextMenuEvents() {
         event.preventDefault();
         var taskId = $("#task_menu").data("id");
         unstageTask(taskId);
+    });
+
+    $("#clone_task_menu_item").click(function (event) {
+        event.preventDefault();
+        var taskId = $("#task_menu").data("id");
+        cloneTask(taskId);
     });
 
     $("#delete_task_menu_item").click(function(event) {
@@ -785,6 +867,10 @@ function applyTags(tags) {
         var taskId = taskItem.data("id");
         var task = findTask(taskId);
         var taskTags = task.tags.split(",");
+        // Patch: split returns 1 element with empty string when no tags are found.
+        if (taskTags.length == 1 && taskTags[0].trim() == "") {
+            taskTags = [];
+        }
         tags.forEach(function(t) {
             var currentTag = t.trim();
             if (currentTag.isWhitespace()) {
@@ -850,11 +936,83 @@ function loadReadme() {
 }
 
 /**
+ * Fill with zero two places of a number.
+ */
+function addZero(number) {
+    return (number < 10) ? "0" + number : number + "";
+}
+
+/**
+ * Update the elapsed time.
+ */
+function updateTimeElapsed() {
+    var nowTime = new Date();
+    var partialTimeElapsed = nowTime.getTime() - window.startingTime.getTime();
+    window.startingTime = nowTime;
+    window.timeElapsed += partialTimeElapsed;
+
+    $("#timer_display").html("%h%:%min%:%sec%".format(
+        ["%h%", "%min%", "%sec%"],
+        [addZero(Math.floor(window.timeElapsed / 1000 / 60 / 60)),
+            addZero(Math.floor(window.timeElapsed / 1000 / 60 % 60)),
+            addZero(Math.floor(window.timeElapsed / 1000 % 60))]
+        ));
+}
+
+/**
+ * Register timer callback function.
+ */
+function registerTimerFunction() {
+    setTimeout(function () {
+        if (window.timerEnabled) {
+            updateTimeElapsed();
+        }
+        registerTimerFunction();
+    }, 1000);
+}
+
+/**
+ * Resets the timer.
+ */
+function resetTimer() {
+    window.timeElapsed = 0;
+    $("#timer_display").html("00:00:00");
+}
+
+/**
+ * Handle the timer start/stop click event.
+ */
+function timerStartClick() {
+    var timerButton = $("#timer_start_button");
+    if (typeof (window.timerEnabled) === 'undefined') {
+        registerTimerFunction();
+        resetTimer();
+    }
+    if (typeof (window.timerEnabled) === 'undefined' || !window.timerEnabled) {
+        window.timerEnabled = true;
+        window.startingTime = new Date();
+        timerButton.html("Stop");
+    } else {
+        window.timerEnabled = false;
+        timerButton.html("Start");
+    }
+}
+
+/**
+ * Handle the timer reset click event.
+ */
+function timerResetClick() {
+    resetTimer();
+}
+
+/**
  * Register the events of the main menu items.
  */
 function registerMainMenuEvents() {
     $("#new_task_button").click(newTaskClick);
     $("#commit_button").click(commitClick);
+    $("#timer_start_button").click(timerStartClick);
+    $("#timer_reset_button").click(timerResetClick);
 }
 
 $(document).ready(function() {

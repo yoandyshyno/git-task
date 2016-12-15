@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Create a basic site/README.md as an example for users",
+  "description": "",
+  "tags": "doc",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "93a3bb417b4ff07f0699b369e357f6dd15f48f736c0a53f6a04534eae964fece",
+  "createdAt": 1481777818102,
+  "updatedAt": 1481778381582
+}

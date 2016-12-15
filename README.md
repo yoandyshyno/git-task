@@ -76,6 +76,11 @@ $ git task init
 ```
 
 This command copies all the git-task required files to a *.task* directory under your git repository.
+
+** NOTICE: ** If you run `git task init` in an already git-task enabled project,
+you might lose any modifications you did to the .tasks directory files. But
+remember this is a git directory, so you might recover your changes ;).
+
 Then, run the following command for starting the git-task server (website hosting service):
 
 ``` bash
@@ -172,7 +177,7 @@ included in the filter (ids, title, tags, etc).
 ### Mass-adding and mass-removing tags
 
 **NOTICE**: Mass-adding and mass-removing tags affect all tasks displayed in the page. Don't use this feature
-unless you filter the tasks before.
+unless you previously filter the tasks.
 
 Tags can be added or removed from a set of (or all) tasks. Type tag names separated by commas in the
 *tag1,tag2,-tag3,-tag4* textbox and press Enter to add the tag(s). Prepend the tag name with a *-* to
@@ -184,9 +189,46 @@ This causes the tasks to be updated (changed in git).
 A README.md (Markdown) can be added to the .tasks folder and will be displayed at the end of the web page.
 Use your preferred editor to change it.
 
+### Statistics - NEW in v0.8!
+
+The web page now has amount of hours left, planned, burned and total of tasks shown
+in the page (so these stats are filter sensitive).
+
+### Timer - NEW in v0.8!
+
+You can time your development easily with the new timer of the web page,
+you can start/stop/reset it. But *beware*: if you reload the page, the
+timer will be stopped.
+
 ## Bugs
 
-Enter [git-task issues](http://github.com/aleph-engineering/git-task/issues) or use git-task locally and push the code!!!
+Enter [git-task issues](http://github.com/aleph-engineering/git-task/issues) or
+use git-task locally and push the code!!!
+
+## Changelog
+
+- v0.8
+    - Removed the need of having the NODE_PATH env variable to successfuly
+      run git-task script.
+    - Moved the Task object definition to the .tasks/config.js.
+    - Added a description to all Task fields.
+    - Created a basic site/README.md as an example for users.
+    - Web page:
+        - When entered pending hours, if bigger than estimation, updates
+          estimation to pending value.
+        - When moved a task to status column 'done', pending hours should be set to 0.
+        - Added Clone task to the context menu and implemented shallow cloning.
+        - When a new task is created, it is put at the beginning of the panel.
+        - Displayed the total amount of tasks (filter sensitive).
+        - Displayed the total amount of hours left (filter sensitive).
+        - Displayed the total amount of hours planned (filter sensitive).
+        - Displayed the total amount of hours burned (filter sensitive).
+        - Displayed a timer with hours/minutes/seconds. Implemented
+          Start/Stop/Reset buttons for the timer.
+        - (BUG) Fixed automatic tagging with leading comma.
+    - Added some tests and migrated to mocha framework.
+    - Implemented several sorting and merging functions for using later in sync verb.
+    - Updated the git-task .tasks dir with the new files.
 
 ## License (MIT)
 

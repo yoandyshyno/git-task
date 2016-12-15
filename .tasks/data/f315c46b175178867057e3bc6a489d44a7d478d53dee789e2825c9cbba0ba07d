@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "When moved a task to status column 'done', pending hours should be set to 0",
+  "description": "",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "f315c46b175178867057e3bc6a489d44a7d478d53dee789e2825c9cbba0ba07d",
+  "createdAt": 1481778275546,
+  "updatedAt": 1481778356557
+}

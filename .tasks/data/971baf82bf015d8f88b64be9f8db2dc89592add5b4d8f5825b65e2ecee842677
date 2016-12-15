@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Fix automatic tagging with leading comma",
+  "description": "",
+  "tags": "webpage,bug",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "971baf82bf015d8f88b64be9f8db2dc89592add5b4d8f5825b65e2ecee842677",
+  "createdAt": 1481777926313,
+  "updatedAt": 1481778362145
+}

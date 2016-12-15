@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Remove the need of having the NODE_PATH env variable to successfuly run git-task script",
+  "description": "",
+  "tags": "cli,project,bug",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "804618bc33a45223b5fff89cd8da66e415fca605340ca14bc8a5a950fd0c7dd7",
+  "createdAt": 1481777982053,
+  "updatedAt": 1481778359490
+}

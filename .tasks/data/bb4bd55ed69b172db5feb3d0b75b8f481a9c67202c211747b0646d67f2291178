@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Implement Start/Stop/Reset buttons for the timer",
+  "description": "",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "bb4bd55ed69b172db5feb3d0b75b8f481a9c67202c211747b0646d67f2291178",
+  "createdAt": 1481777686611,
+  "updatedAt": 1481778372066
+}

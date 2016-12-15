@@ -51,11 +51,6 @@ a {
     display: inline;
 }
 
-.task_editor_form {
-    max-height: 50vh;
-    overflow-y: scroll;
-}
-
 .task_item {
     width: 160px;
     min-height: 100px;
@@ -83,10 +78,6 @@ a {
 
 .task_item.not_included {
     background-color: lightseagreen;
-}
-
-.task_item_assigned_to {
-    font-weight: bold;
 }
 
 .task_item_tags {
@@ -141,6 +132,10 @@ a {
     display: none;
 }
 
+#hour_count {
+    font-size: 8pt;
+}
+
 .loading {
     float: left;
 }
@@ -151,15 +146,16 @@ a {
     position: fixed;
     background-color: white;
     border: 1px solid black;
+    vertical-align: middle;
 }
 
 .main_menu_top_section {
-    height: 20px;
+    height: 30px;
     vertical-align: middle;
 }
 
 .main_menu_space {
-    height: 30px;
+    height: 40px;
 }
 
 .menu_section {
@@ -209,6 +205,10 @@ a {
 
 .task_edit_form_values_column {
     width: 80%;
+}
+
+#timer_display {
+    font-weight: bold;
 }
 
 .separator {

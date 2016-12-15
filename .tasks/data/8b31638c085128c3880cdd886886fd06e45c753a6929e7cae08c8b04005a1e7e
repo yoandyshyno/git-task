@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": 1,
+  "title": "Update the git-plugin-task .tasks dir with the new files",
+  "description": "",
+  "tags": "project",
+  "gitStatus": "A ",
+  "assignedTo": "",
+  "priority": 5,
+  "actualTime": 0,
+  "id": "8b31638c085128c3880cdd886886fd06e45c753a6929e7cae08c8b04005a1e7e",
+  "createdAt": 1481778151231,
+  "updatedAt": 1481778357954
+}

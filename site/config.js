@@ -26,12 +26,16 @@ const STATUS_ENUM = ["open", "in_progress", "done"];
  * @constructor
  */
 function Task() {
-    this.status = 'open';
-    this.pending = 1;
-    this.estimation = 1;
-    this.title = 'New task';
-    this.tags = '';
-    this.gitStatus = 'A ';
+    this.status = 'open'; // status of the task, can be customized with the STATUS_ENUM.
+    this.pending = 1; // pending hours to finish the task
+    this.estimation = 1; // estimated/planned hours, can be a float
+    this.title = 'New task'; // task title
+    this.description = ''; // full task description
+    this.tags = ''; // tags comma separated
+    this.gitStatus = 'A '; // automatically set when coming from the server, 'A ' means "added"
+    this.assignedTo = ''; // email(s) or user name(s)
+    this.priority = 5; // from 0 to 9, 0 is the highest priority
+    this.actualTime = 0; // actual hours that took the task to be done
 }
 
 //NOTICE: Do not modify from this point.
