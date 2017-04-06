@@ -228,8 +228,8 @@ function addTask(task, prevItem) {
             '<span class="task_item_estimation">%estimation%</span>h<br/>' +
             '<span class="task_item_tags">%tags%</span>' +
             '<div class="task_options">' +
-                '<a class="edit_task_link" href="#">E</a> ' +
-                '<a class="task_menu_link" href="#">M</a>' +
+                '<a class="edit_task_link" href="#"><i class="fa fa-edit"></i></a> ' +
+                '<a class="task_menu_link" href="#"><i class="fa fa-bars"></i> &nbsp; </a>' +
             '</div>' +
         '</div>';
     var tags = (!task.tags || task.tags.isWhitespace()) ?

@@ -54,10 +54,13 @@ a {
 .task_item {
     width: 160px;
     min-height: 100px;
-    border: 0 solid black;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: grabbing;
+    cursor: -webkit-grabbing;
     background-color: #b8fffa;
     margin: 3px;
-    padding: 2px;
+    padding: 4px;
     float: left;
     overflow: auto;
 }
