@@ -146,10 +146,10 @@ a {
 .main_menu {
     padding: 5px;
     width: 98%;
-    position: fixed;
     background-color: white;
     border: 1px solid black;
     vertical-align: middle;
+    height: 50px;
 }
 
 .main_menu_top_section {
@@ -158,11 +158,12 @@ a {
 }
 
 .main_menu_space {
-    height: 40px;
+    height: 2px;
 }
 
 .menu_section {
     float: left;
+    line-height: 25px;
 }
 
 .menu_right_section {
@@ -220,4 +221,19 @@ a {
     background-color: darkgreen;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.btn {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  color: #ffffff;
+  background: #3498db;
+  padding: 5px 8px 5px 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
 }

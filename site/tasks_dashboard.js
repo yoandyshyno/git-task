@@ -229,7 +229,7 @@ function addTask(task, prevItem) {
             '<span class="task_item_tags">%tags%</span>' +
             '<div class="task_options">' +
                 '<a class="edit_task_link" href="#"><i class="fa fa-edit"></i></a> ' +
-                '<a class="task_menu_link" href="#"><i class="fa fa-bars"></i> &nbsp; </a>' +
+                '<a class="task_menu_link" href="#"><i class="fa fa-bars"></i></a>' +
             '</div>' +
         '</div>';
     var tags = (!task.tags || task.tags.isWhitespace()) ?
@@ -752,7 +752,8 @@ function registerTaskMenuHideEvent() {
         var taskMenu = $("#task_menu");
         if (target.attr("id") != "task_menu" &&
             !target.hasClass("task_menu_link") &&
-            !taskMenu.hasClass("hidden")) {
+            !taskMenu.hasClass("hidden") &&
+            !target.hasClass("fa-bars")) {
             taskMenu.addClass("hidden");
         }
     });
