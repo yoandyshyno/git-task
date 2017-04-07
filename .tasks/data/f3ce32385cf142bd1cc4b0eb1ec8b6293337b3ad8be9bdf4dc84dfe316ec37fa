@@ -1,0 +1,15 @@
+{
+  "status": "done",
+  "pending": 0,
+  "estimation": "2",
+  "title": "Styling Dashboard",
+  "description": "adding some styles to dashboard.",
+  "tags": "webpage",
+  "gitStatus": "A ",
+  "assignedTo": "yoandyshyno",
+  "priority": "5",
+  "actualTime": "1",
+  "id": "f3ce32385cf142bd1cc4b0eb1ec8b6293337b3ad8be9bdf4dc84dfe316ec37fa",
+  "createdAt": 1491567535915,
+  "updatedAt": 1491567716872
+}
