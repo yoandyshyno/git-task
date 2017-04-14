@@ -688,6 +688,7 @@ function createTaskStatusPanels() {
             task.status = target.data("status");
             runTaskPropertyChangedTriggers(task, "status");
             updateTask(task);
+            updateTaskCount();
         });
 }
 
@@ -1016,6 +1017,17 @@ function registerMainMenuEvents() {
     $("#timer_reset_button").click(timerResetClick);
 }
 
+/**
+ * Update Task count for each container.
+ */
+function updateTaskCount() {
+    STATUS_ENUM.forEach(function(item, index) {
+        var container_count = getContainerFor(item).find('.task_item').length;
+        $('.back' + (index)
+            + ' > .column_header').html(item + ' (' + (container_count) + ')');
+    });
+}
+
 $(document).ready(function() {
     registerMainMenuEvents();
     registerFilterEvents();
@@ -1026,4 +1038,5 @@ $(document).ready(function() {
     createTaskStatusPanels();
     loadTasks();
     loadReadme();
+    setTimeout(updateTaskCount, 3000);
 });
